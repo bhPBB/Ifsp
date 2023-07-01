@@ -145,7 +145,7 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-Y3HvYQm62AyxUuImlJAPC08AdJvnUIUywyp1qTao9j4=",
+      "hash": "sha256-wTuL53A9ytbNCAgz8Io49LLL9OQ\/+M96Qv31w7Pl4a0=",
       "url": "Ifsp.styles.css"
     },
     {
@@ -225,5 +225,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "CJb+GiFY"
+  "version": "iGm3mkCH"
 };

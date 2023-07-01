@@ -130,6 +130,17 @@ main[b-grwbn8h2fq] {
         padding-right: 1.5rem !important;
     }
 }
+@media (max-width: 768px) {
+    .footer[b-grwbn8h2fq] {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+}
+
+
 /* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-px8mx13q9h] {
     background-color: rgba(243, 243, 243, 0.438);
