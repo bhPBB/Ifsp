@@ -47,6 +47,8 @@ img[b-y3gd3oxbhp]{
 
 main[b-grwbn8h2fq] {
     flex: 1;
+    margin-bottom: 2rem;
+    min-height: 100vh;
 }
 
 .sidebar[b-grwbn8h2fq] {
