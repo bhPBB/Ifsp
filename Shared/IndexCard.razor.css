@@ -1,0 +1,14 @@
+.card{
+    width: 18rem;
+    color: black;
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+}
+.card:hover{
+    color: rgb(13, 221, 6);
+    border-color: rgb(13, 221, 6);
+    transform: translateY(-5px);
+}
+img{
+    height: 60%;
+}

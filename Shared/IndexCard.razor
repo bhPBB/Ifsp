@@ -1,0 +1,21 @@
+<div class="col-md-4 mb-4">
+        <NavLink href="@href" Match="NavLinkMatch.All" style="text-decoration: none;">
+            <div class="card">
+                <img class="card-img-top" src="@imgSrc" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">@titulo</h4>
+                    <p class="card-text">@desc</p>
+                </div>
+            </div>
+    </NavLink>
+</div>
+@code{
+    [Parameter]
+    public string titulo { get; set; } = null!;
+    [Parameter]
+    public string href { get; set; } = null!;
+    [Parameter]
+    public string desc { get; set; } = null!;
+    [Parameter]
+    public string imgSrc { get; set; } = null!;  
+}
