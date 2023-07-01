@@ -1,0 +1,93 @@
+﻿@page "/"
+
+<PageTitle>Início @TituloPagina.nomeSite</PageTitle>
+
+<h1>Instituto Federal de São Paulo</h1>
+<em>Câmpus Hortolândia</em>
+<br>
+<br>
+<p>Clique em um cartão para ser redirecionado à página respectiva.</p>
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <NavLink href="CalendarioAcademico" Match="NavLinkMatch.All" style="text-decoration: none; color: black;">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://aeda.edu.br/wp-content/uploads/2021/12/nota-calendc3a1rio-das-universidades-durante-a-pandemia.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Calendário Acadêmico</h4>
+                    <p class="card-text">Veja os Calendários relativos aos cursos superiores, técnicos e integrados.</p>
+                </div>
+            </div>
+        </NavLink>
+    </div>
+    <div class="col-md-4 mb-4">
+        <NavLink style="text-decoration: none; color: black;" href="Cursos" Match="NavLinkMatch.All">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://img.freepik.com/vetores-premium/chapeu-de-formatura-em-estilo-simples_633081-19.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Cursos</h4>
+                    <p class="card-text">Confira os cursos que este Câmpus oferta no momento.</p>
+                </div>
+            </div>
+        </NavLink>
+    </div>
+<div class="col-md-4 mb-4">
+    <NavLink style="text-decoration: none; color: black;" href="Localizacao" Match="NavLinkMatch.All">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/18/18088.png" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Localização</h4>
+                <p class="card-text">Descubra como chegar ao Instituto Federal de Hortolândia.</p>
+            </div>
+        </div>
+    </NavLink>
+</div>
+</div>
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <NavLink style="text-decoration: none; color: black;" href="Biblioteca" Match="NavLinkMatch.All">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://img.freepik.com/vetores-gratis/pilha-de-livros-de-design-plano-desenhado-a-mao_23-2149334862.jpg?w=2000" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Biblioteca</h4>
+                    <p class="card-text">Saiba mais sobre nossas bibliotecas fisíca e virtual (Pergamum).</p>
+                </div>
+            </div>
+        </NavLink>
+    </div>
+    <div class="col-md-4 mb-4">
+        <NavLink style="text-decoration: none; color: black;" href="Pesquisa" Match="NavLinkMatch.All">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://img.freepik.com/vetores-premium/mao-humana-com-lupa-vector-design-ilustracao_24877-18274.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Pesquisa Acadêmica</h4>
+                    <p class="card-text">Área de assuntos relacionados a pesqusisas acadêmicas.</p>
+                </div>
+            </div>
+        </NavLink>
+    </div>
+    <div class="col-md-4 mb-4">
+        <NavLink style="text-decoration: none; color: black;" href="Extensao" Match="NavLinkMatch.All">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://bra.ifsp.edu.br/images/Imagem_Noticias/noticia_Extensao.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Cursos de Extensão</h4>
+                    <p class="card-text">Confira informações relacionadas aos cursos de extensão oferecidos pelo Câmpus.</p>
+                </div>
+            </div>
+        </NavLink>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <NavLink style="text-decoration: none; color: black;" href="Historico" Match="NavLinkMatch.All">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Instituto_Federal_Marca_2015.svg/1200px-Instituto_Federal_Marca_2015.svg.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Historico</h4>
+                    <p class="card-text">Conheça a história do Instituto Federal Câmpus Hortolândia.</p>
+                </div>
+            </div>
+        </NavLink>
+    </div>
+</div>
+@code{}
